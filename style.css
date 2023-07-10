@@ -1,0 +1,100 @@
+ * {
+     margin: 0;
+ }
+
+ /* nav style */
+
+ .container {
+     background-color: cornflowerblue;
+ }
+
+ .nav-container {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .nav-menue ul {
+     display: flex;
+     text-align: center;
+     /* padding-right: 10px; */
+ }
+
+ .nav-menue li {
+     list-style: none;
+     padding-right: 10px;
+     margin-top: 15px;
+ }
+
+ .link {
+     text-decoration: none;
+     font-size: 20px;
+ }
+
+ /* nav style end  */
+
+
+ /* banner start  */
+ .banner {
+     background-image: url('image/background.jpg'), linear-gradient(rgba(65, 62, 62, 0), rgba(60, 55, 55, 0));
+     height: 100vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+
+ }
+
+ .banner-head {
+     /* align-items: center; */
+     margin-top: 150px;
+
+ }
+
+ .banner-taitel {
+     font-size: 40px;
+     font-weight: bolder;
+     color: wheat;
+     display: flex;
+     justify-content: center;
+ }
+
+ .banner-discription {
+     color: rgb(67, 49, 16);
+     /* width: 300px; */
+     /* font-size: 20px; */
+     font-weight: 400;
+     width: 1000px;
+     margin-top: 10px;
+     text-align: center;
+     /* border: 3px solid red; */
+ }
+
+ .digital {
+
+     color: tomato;
+ }
+
+ .button {
+     display: flex;
+     justify-content: center;
+     margin-top: 10px;
+ }
+
+ .color-bttn {
+     background-color: tomato;
+     /* color: wheat; */
+     width: 120px;
+     height: 60px;
+     border: 0;
+     border-radius: 5px;
+ }
+
+ .bttn {
+     border: 0;
+     border-radius: 5px;
+     width: 120px;
+     height: 60px;
+     margin-left: 10px;
+ }
